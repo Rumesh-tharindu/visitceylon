@@ -1,0 +1,181 @@
+body{
+    width:100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    padding: 0;
+    margin:0;
+}
+.container{
+    width:80%;
+    border:1px solid #ccc;
+    height: 900px;
+    border-top:none;
+    box-shadow:  0 2px 2px rgba(0, 0,0,0.25);
+    
+    
+   
+}
+.header{
+    width:95%;
+    height: 60px;
+    border-bottom:4px solid blue;
+   
+}
+.header h1{
+    margin-left:10px;
+    margin-bottom:-20px;
+    color:blue;
+}
+.box{
+    width:600px;
+    height: 100%;
+    border:1px solid #f2f2f2;
+    margin:0 auto;
+    border-top-left-radius: 4px;;
+    border-top-right-radius: 4px;
+    
+}
+.box .tabs{
+ width:100%;
+ display:flex;
+ height: 50px;
+ text-transform: uppercase;
+ font-weight: bold;
+ letter-spacing: 1px;
+ color:#555;
+ border-top-right-radius: 4px;
+}
+.box .tabs .tab {
+  width:50%;
+  border-top-left-radius: 4px;;
+  
+  
+  text-align: center;
+  padding-top:20px;
+  border:1px solid #f8f8f8;
+
+}
+.box .tabs  .tab1{
+    border-right:2px solid #fff;
+    background-color:#ccc;
+    color:#fff;
+    
+    
+}
+.box .tabs  .tab2{
+    border-right:2px solid #fff;
+    background-color: #fff;
+    
+}
+.box .content2{
+    display: none;
+    
+}
+.box .content1 .form-group{
+    display:flex;
+    height:40px;
+    width:100%;
+    align-items: center;
+    margin-top:20px;
+    
+   
+
+}
+.box .content1 .form-group label{
+   width:40%;
+   margin-left:20px;
+   font-size:18px;
+   
+
+
+}
+.box .content1 .form-group input[type="text"],[type="password"]{
+    width:50%;
+    padding:6px 12px;
+    font-size:14px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0,0,0.075);
+}
+.box .content1 .form-group #upload{
+    border:1px solid #ccc;
+    padding:10px 5px;
+    width:100px;
+    margin-left:px;
+    font-size: 14px;
+    box-shadow: inset 0 1px 1px rgba(0, 0,0,0.075);
+    border-radius: 4px;
+    font-weight: bold;
+}
+.box .content1 input[type='submit']{
+
+    padding:10px 70px;
+    border-radius: 30px;
+    border:none;
+    background-color: royalblue;
+    color:#fff;
+    font-weight: bold;
+    position: relative;
+    top:30px;
+    left:200px;
+    box-shadow: 0 1px 0 0 #1a59b6;;
+
+}
+
+
+.box .content2 .form-group{
+    display:flex;
+    height:40px;
+    width:100%;
+    align-items: center;
+    margin-top:20px;
+    
+   
+
+}
+.box .content2 .form-group label{
+   width:40%;
+   margin-left: 20px;
+   font-size:18px;
+   
+
+
+}
+.box .content2 .form-group input[type="text"],[type="password"]{
+    width:50%;
+    padding:6px 12px;
+    font-size:14px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0,0,0.075);
+}
+.box .content2 input[type='submit']{
+
+    padding:10px 60px;
+    border-radius: 30px;
+    border:none;
+    background-color: royalblue;
+    color:#fff;
+    font-weight: bold;
+    position: relative;
+    top:40px;
+    left:300px;
+    box-shadow: 0 1px 0 0 #1a59b6;;
+
+
+}
+.message{
+ width:80%;
+ height: 50px ;
+ background-color:#fff;
+ font-weight: bold;
+ text-align: center;
+ display: none;
+ margin:10px auto;
+}
+.message-box{
+    background-color: rgb(238, 79, 79);
+    height: 30px;
+    padding-top:20px;
+}

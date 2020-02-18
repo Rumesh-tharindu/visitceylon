@@ -1,0 +1,14 @@
+section{
+    border-bottom:2px solid red;
+}
+.navbar span a{
+    color:#bf2c00;
+    background-color:#fff5f2;
+    text-transform: uppercase;
+    padding:10px;
+    border-radius:1px;
+    border:0.5px solid red;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
